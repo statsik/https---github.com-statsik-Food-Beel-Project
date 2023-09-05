@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Food Bill</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan&family=Roboto&family=Roboto+Slab:wght@400;900&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <div>
+        <img class="black-background" src="img/black-background.png" alt="">
+        <img class="sushi" src="img/sushi.png" alt="">
+        <img class="salad" src="img/salad.png" alt="">
+    </div>
+   <div class="header open">
+        <img src="img/food bill.png" alt="">
+        <div class="navigation">
+            <button class="button1">Your card</button>
+            <div>
+                <button class="button2" id="serevices-button-slider">
+                    <!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg class="button-menu" id="button-menu-id" height="32px" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg>
+                    <div class="button2-slider">
+                        <ul>
+                            <li class="button2-products">Timetable</li>
+                            <li class="button2-contacts">Contacts</li>
+                        </ul>
+                    </div> 
+                </button>
+            </div>
+            <button class="button3">Products</button>
+            <button class="button4" id="scroll-telefon">Contact</button>
+        </div>
+        <button class="register" id="register-navigation">Register</button>
+        <button class="register-sign" id="signin-navigation">Sign-in</button>
+   </div>
+   
+    <main>
+        <div class="first-page">
+            <div class="animation-of-first-page">
+                <h2>You Can Eat <br>Any Tasty <br> Food You Like.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                <div class="nav-bottom-getstart">
+                    <p>Get Started</p>
+                    <button id="scroll-getstarted">
+                        <img src="img/getstarted-button.png" alt="">
+                    </button>
+                </div>
+                <div class="nav-bottoms-icns">
+                    <svg xmlns="http://www.w3.org/2000/svg" margin-left="10" width="229" height="40" viewBox="0 0 229 40" fill="none">
+                        <circle class="twitter-icon" cx="146" cy="20" r="20" fill="#F16214" fill-opacity="0.15"/>
+                        <path d="M153.988 15.5432C153.389 15.8081 152.754 15.9821 152.104 16.0594C152.789 15.6495 153.302 15.0044 153.547 14.2443C152.904 14.6271 152.199 14.8953 151.464 15.0404C150.97 14.5122 150.316 14.1619 149.603 14.044C148.889 13.926 148.157 14.047 147.52 14.3882C146.882 14.7294 146.375 15.2716 146.078 15.9306C145.78 16.5895 145.709 17.3283 145.874 18.0321C144.57 17.9667 143.294 17.6278 142.129 17.0372C140.964 16.4467 139.937 15.6178 139.113 14.6043C138.821 15.1051 138.668 15.6744 138.669 16.2539C138.669 17.3913 139.248 18.3961 140.128 18.9843C139.607 18.968 139.098 18.8273 138.642 18.5741V18.6149C138.643 19.3724 138.905 20.1065 139.384 20.6928C139.864 21.2791 140.532 21.6814 141.274 21.8317C140.791 21.9627 140.284 21.982 139.792 21.8881C140.001 22.5402 140.409 23.1104 140.958 23.519C141.508 23.9276 142.171 24.1541 142.856 24.1668C142.176 24.7012 141.397 25.0963 140.563 25.3294C139.73 25.5625 138.859 25.6291 138 25.5253C139.5 26.4897 141.245 27.0017 143.028 27C149.062 27 152.362 22.0011 152.362 17.6658C152.362 17.5246 152.358 17.3818 152.352 17.2422C152.994 16.778 153.549 16.2029 153.989 15.544L153.988 15.5432Z" fill="#F16214"/>
+                        <circle class="instagram-icon" cx="83" cy="20" r="20" fill="#F16214" fill-opacity="0.15"/>
+                        <path d="M83.5 18.55C82.9828 18.55 82.4868 18.7554 82.1211 19.1211C81.7554 19.4868 81.55 19.9828 81.55 20.5C81.55 21.0172 81.7554 21.5132 82.1211 21.8789C82.4868 22.2446 82.9828 22.45 83.5 22.45C84.0172 22.45 84.5132 22.2446 84.8789 21.8789C85.2446 21.5132 85.45 21.0172 85.45 20.5C85.45 19.9828 85.2446 19.4868 84.8789 19.1211C84.5132 18.7554 84.0172 18.55 83.5 18.55ZM83.5 17.25C84.362 17.25 85.1886 17.5924 85.7981 18.2019C86.4076 18.8114 86.75 19.638 86.75 20.5C86.75 21.362 86.4076 22.1886 85.7981 22.7981C85.1886 23.4076 84.362 23.75 83.5 23.75C82.638 23.75 81.8114 23.4076 81.2019 22.7981C80.5924 22.1886 80.25 21.362 80.25 20.5C80.25 19.638 80.5924 18.8114 81.2019 18.2019C81.8114 17.5924 82.638 17.25 83.5 17.25ZM87.725 17.0875C87.725 17.303 87.6394 17.5097 87.487 17.662C87.3347 17.8144 87.128 17.9 86.9125 17.9C86.697 17.9 86.4903 17.8144 86.338 17.662C86.1856 17.5097 86.1 17.303 86.1 17.0875C86.1 16.872 86.1856 16.6653 86.338 16.513C86.4903 16.3606 86.697 16.275 86.9125 16.275C87.128 16.275 87.3347 16.3606 87.487 16.513C87.6394 16.6653 87.725 16.872 87.725 17.0875ZM83.5 15.3C81.8919 15.3 81.6293 15.3046 80.8812 15.3377C80.3716 15.3618 80.0296 15.43 79.7124 15.5535C79.4303 15.6627 79.2269 15.7933 79.0104 16.0104C78.807 16.207 78.6506 16.447 78.5528 16.7124C78.4293 17.0309 78.3611 17.3722 78.3377 17.8812C78.3039 18.5988 78.3 18.8496 78.3 20.5C78.3 22.1081 78.3046 22.3707 78.3377 23.1188C78.3618 23.6278 78.43 23.9703 78.5528 24.2869C78.6633 24.5696 78.7933 24.7731 79.0092 24.9889C79.2282 25.2073 79.4316 25.3379 79.7111 25.4458C80.0322 25.57 80.3742 25.6389 80.8812 25.6623C81.5988 25.6961 81.8496 25.7 83.5 25.7C85.1081 25.7 85.3707 25.6954 86.1188 25.6623C86.6271 25.6382 86.9697 25.57 87.2869 25.4471C87.5683 25.3373 87.7731 25.2066 87.9889 24.9908C88.2079 24.7718 88.3386 24.5683 88.4465 24.2888C88.57 23.9684 88.6389 23.6258 88.6623 23.1188C88.6961 22.4012 88.7 22.1503 88.7 20.5C88.7 18.8919 88.6954 18.6293 88.6623 17.8812C88.6382 17.3728 88.57 17.0296 88.4465 16.7124C88.3485 16.4473 88.1924 16.2074 87.9895 16.0104C87.7931 15.8069 87.5531 15.6505 87.2875 15.5528C86.969 15.4293 86.6271 15.3611 86.1188 15.3377C85.4012 15.3039 85.1503 15.3 83.5 15.3ZM83.5 14C85.266 14 85.4864 14.0065 86.1793 14.039C86.8715 14.0715 87.3428 14.1801 87.7575 14.3413C88.1865 14.5064 88.5479 14.7299 88.9093 15.0907C89.2398 15.4156 89.4956 15.8087 89.6587 16.2425C89.8193 16.6565 89.9285 17.1284 89.961 17.8207C89.9915 18.5136 90 18.7339 90 20.5C90 22.266 89.9935 22.4864 89.961 23.1793C89.9285 23.8715 89.8193 24.3428 89.6587 24.7575C89.496 25.1916 89.2402 25.5847 88.9093 25.9093C88.5843 26.2397 88.1912 26.4954 87.7575 26.6587C87.3434 26.8193 86.8715 26.9285 86.1793 26.961C85.4864 26.9915 85.266 27 83.5 27C81.7339 27 81.5136 26.9935 80.8207 26.961C80.1284 26.9285 79.6572 26.8193 79.2425 26.6587C78.8085 26.4959 78.4154 26.2401 78.0907 25.9093C77.7601 25.5844 77.5044 25.1914 77.3413 24.7575C77.1801 24.3434 77.0715 23.8715 77.039 23.1793C77.0084 22.4864 77 22.266 77 20.5C77 18.7339 77.0065 18.5136 77.039 17.8207C77.0715 17.1278 77.1801 16.6572 77.3413 16.2425C77.5039 15.8084 77.7597 15.4153 78.0907 15.0907C78.4155 14.76 78.8086 14.5042 79.2425 14.3413C79.6572 14.1801 80.1278 14.0715 80.8207 14.039C81.5136 14.0084 81.7339 14 83.5 14Z" fill="#F16214"/>
+                        <circle class="facebook-icon" cx="20" cy="20" r="20" fill="#F16214" fill-opacity="0.15"/>
+                        <path d="M21.55 21.475H23.175L23.825 18.875H21.55V17.575C21.55 16.9055 21.55 16.275 22.85 16.275H23.825V14.091C23.6131 14.0631 22.8129 14 21.9679 14C20.2032 14 18.95 15.077 18.95 17.055V18.875H17V21.475H18.95V27H21.55V21.475Z" fill="#F16214"/>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="information">
+                <div class="information-timetable">
+                    <button id="scroll-timetable"><img src="img/clock.png" alt=""></button>
+                    <h4 class="info-all">Today 10:00am - 09:00pm</h4>
+                    <p class="subs">Working Time</p>
+                </div>
+                <img class="line1" src="img/Line 1.png" alt="">
+                <div class="address">
+                    <button id="scroll-adress"><img src="img/geo.png" alt=""></button>
+                    <h4 class="info-all">Washington, D.C., DC, USA</h4>
+                    <p class="subs">Our Location</p>
+                </div>
+                <img class="line1" src="img/Line 1.png" alt="">
+                <div class="telefon">
+                    <button id="scroll-telefon"><img src="img/telefon.png" alt=""></button>
+                    <h4 class="info-all">+17602781253</h4>
+                    <p class="subs">Call Online</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-2">
+            <img src="img/fish.png" alt="">
+            <div class="text-page-2">
+                <p class="text-page-2-title">How to work</p>
+                <h2>Food Is An Important Part Of <br> A Balanced Diet</h2>
+                <p class="text-page-2-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="nav-bottom-learn-more">
+                    <p>Learn More</p>
+                    <button>
+                        <img src="img/getstarted-button.png" id="learn-more" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-3" id="services">
+            <p class="services">Services</p>
+            <h3>Why Choose Our Favorite Food</h3>
+            <div class="buttons-instrument">
+                <div class="button-quality">
+                    <button class="quality-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+                            <circle cx="40" cy="40" r="40" fill="#F16214" fill-opacity="0.15"/>
+                            <path d="M26.981 25.1244L38.3333 36.4767L33.5537 41.2579L26.9793 34.6835C25.712 33.4158 25 31.6966 25 29.904C25 28.1114 25.712 26.3922 26.9793 25.1244H26.981ZM43.9596 39.2163L42.5162 40.6597L54.4668 52.6102L52.077 55L40.1265 43.0511L28.1759 55L25.7861 52.6102L41.5698 36.8266C40.576 34.3641 41.6036 30.8183 44.3077 28.1108C47.6085 24.8118 52.1565 24.009 54.4668 26.3193C56.7772 28.6297 55.9744 33.1777 52.6753 36.4767C49.9678 39.1842 46.422 40.2118 43.9596 39.2163Z" fill="#F16214"/>
+                        </svg>
+                    </button>
+                    
+                    <h4>Qualityfull Food</h4>
+                    <p>But I must explain to you how all this<br> mistaken idea of denouncing pleasure and<br> praising pain was born.</p>
+                </div>
+                <div class="healthy-food">
+                    <button class="quality-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+                            <circle cx="40" cy="40" r="40" fill="#F16214" fill-opacity="0.15"/>
+                            <path d="M54 25V55H51V43H46.5V32.5C46.5 30.5109 47.2902 28.6032 48.6967 27.1967C50.1032 25.7902 52.0109 25 54 25ZM36 42.85V55H33V42.85C31.3062 42.5037 29.784 41.5831 28.6907 40.2438C27.5974 38.9045 27.0002 37.2288 27 35.5V26.5H30V37H33V26.5H36V37H39V26.5H42V35.5C41.9998 37.2288 41.4026 38.9045 40.3093 40.2438C39.216 41.5831 37.6938 42.5037 36 42.85Z" fill="#F16214"/>
+                        </svg>
+                    </button>
+                    
+                    <h4>Healthy Food</h4>
+                    <p>But I must explain to you how all this<br> mistaken idea of denouncing pleasure and<br> praising pain was born.</p>
+                </div>
+                <div class="delivery">
+                    <button class="quality-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+                            <circle cx="40" cy="40" r="40" fill="#F16214" fill-opacity="0.15"/>
+                            <path d="M33.9285 49.3655C33.7057 50.9291 32.9262 52.3599 31.7332 53.395C30.5401 54.4301 29.0137 55 27.4342 55C25.8547 55 24.3283 54.4301 23.1352 53.395C21.9422 52.3599 21.1627 50.9291 20.9399 49.3655H19V26.8743C19 26.3772 19.1975 25.9005 19.549 25.549C19.9005 25.1975 20.3772 25 20.8743 25H47.114C47.6111 25 48.0878 25.1975 48.4393 25.549C48.7908 25.9005 48.9883 26.3772 48.9883 26.8743V30.6228H54.6111L60.2339 38.2248V49.3655H56.4197C56.1969 50.9291 55.4174 52.3599 54.2244 53.395C53.0313 54.4301 51.5049 55 49.9254 55C48.3459 55 46.8195 54.4301 45.6264 53.395C44.4334 52.3599 43.6539 50.9291 43.4311 49.3655H33.9285ZM45.2397 28.7485H22.7485V43.8364C23.488 43.0814 24.399 42.5163 25.4039 42.1891C26.4088 41.8619 27.4779 41.7824 28.5201 41.9572C29.5624 42.1321 30.5469 42.5561 31.39 43.1933C32.2332 43.8305 32.9098 44.662 33.3625 45.6169H43.9971C44.312 44.9553 44.7337 44.3537 45.2397 43.8364V28.7485ZM48.9883 39.9941H56.4853V39.46L52.7218 34.3713H48.9883V39.9941ZM49.9254 51.2397C50.6713 51.2397 51.3866 50.9434 51.914 50.416C52.4414 49.8886 52.7377 49.1733 52.7377 48.4274C52.7377 47.6815 52.4414 46.9662 51.914 46.4388C51.3866 45.9114 50.6713 45.6151 49.9254 45.6151C49.1795 45.6151 48.4642 45.9114 47.9368 46.4388C47.4094 46.9662 47.1131 47.6815 47.1131 48.4274C47.1131 49.1733 47.4094 49.8886 47.9368 50.416C48.4642 50.9434 49.1795 51.2397 49.9254 51.2397ZM30.2456 48.4283C30.2456 48.0591 30.1729 47.6935 30.0316 47.3525C29.8903 47.0114 29.6832 46.7014 29.4222 46.4404C29.1611 46.1793 28.8512 45.9722 28.5101 45.8309C28.169 45.6896 27.8034 45.6169 27.4342 45.6169C27.065 45.6169 26.6994 45.6896 26.3583 45.8309C26.0172 45.9722 25.7073 46.1793 25.4462 46.4404C25.1852 46.7014 24.9781 47.0114 24.8368 47.3525C24.6955 47.6935 24.6228 48.0591 24.6228 48.4283C24.6228 49.174 24.919 49.889 25.4462 50.4163C25.9735 50.9435 26.6886 51.2397 27.4342 51.2397C28.1798 51.2397 28.8949 50.9435 29.4222 50.4163C29.9494 49.889 30.2456 49.174 30.2456 48.4283Z" fill="#F16214"/>
+                        </svg>
+                    </button>
+                    
+                    <h4>Fast Delivery</h4>
+                    <p>But I must explain to you how all this <br> mistaken idea of denouncing pleasure and <br> praising pain was born.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-4" id="menu">
+            <p>Product</p>
+            <h4>Most Popular Items</h4>
+            <div class="menu">
+                <div class="menu-list">
+                    <img src="img/Gyro Sandwich.png" alt="">
+                    <h6>Gyro Sandwhich</h6>
+                    <button>Add To Card</button>
+                    <p>$350</p>
+                </div>
+                <div class="menu-list">
+                    <img src="img/Enchilada.png" alt="">
+                    <h6>Enchilada</h6>
+                    <button>Add To Card</button>
+                    <p>$390</p>
+                </div>
+                <div class="menu-list">
+                    <img src="img/Green Beans.png" alt="">
+                    <h6>Green Beans</h6>
+                    <button>Add To Card</button>
+                    <p>$230</p>
+                </div>
+                <div class="menu-list">
+                    <img src="img/Pizza.png" alt="">
+                    <h6>Pizza</h6>
+                    <button>Add To Card</button>
+                    <p>$150</p>
+                </div>
+                <div class="menu-list">
+                    <img src="img/ChickenPotPie.png" alt="">
+                    <h6>Chicken Pot Pie</h6>
+                    <button>Add To Card</button>
+                    <p>$260</p>
+                </div>
+                <div class="menu-list">
+                    <img src="img/GreenSalad.png" alt="">
+                    <h6>Green Salad</h6>
+                    <button>Add To Card</button>
+                    <p>$100</p>
+                </div>
+            </div>
+            <div class="nav-bottom-more-products">
+                <p>See More Product</p>
+                <button class="see-more-products" class="see-more-products">
+                    <img src="img/getstarted-button.png" alt="">
+                </button>
+            </div>
+        </div>
+
+        <div class="page-5">
+            <p class="title-page-5">Testimonials</p>
+            <h4>Our Happy Client Says</h4>
+            <div class="informat">
+                <img class="vegetables" src="img/vegetables.png" alt="">
+                <div class="text-page-5">
+                    <div class="text-page-5-man">
+                        <img src="img/man.png" alt="">
+                        <div>
+                            <p class="name">Williams Johon</p>
+                            <p class="man-hobby">CEO & Co-Founder</p>
+                        </div>
+                    </div>
+                    <p class="text-page-5-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor."</p>
+                </div>
+                <img class="foodfeed" src="img/foodfeed.png" alt="">
+            </div>
+        </div>
+
+        <div class="page-6">
+            <img class="backgr" src="img/balck-backgr.png" alt="">
+            <img class="hamburger" src="img/hamburger.png" alt="">
+            <div class="subscription">
+                <h4>Subcribe To Our Newsletter</h4>
+                <p>Email subsription is an opportunity to recevie an interting newsletter from a website. once a user fills in the subscription from on a website.</p>
+                <div class="subscription-buttom">
+                    <input type="text" id="type-of-element" placeholder="Type your email...">
+                    <button>SUBCRIBE</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-7" id="page-7">
+            <img class="g-backgr" src="img/grate-background.png" alt="">
+            <div class="lists">
+                <div class="list1">
+                    <img class="food-bill-page-6" src="img/food bill.png" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <div class="icons-end">
+                        <svg xmlns="http://www.w3.org/2000/svg" margin-left="10" width="229" height="40" viewBox="0 0 229 40" fill="none">
+                            <circle class="twitter-icon" cx="146" cy="20" r="20" fill="#F16214" fill-opacity="0.15"/>
+                            <path d="M153.988 15.5432C153.389 15.8081 152.754 15.9821 152.104 16.0594C152.789 15.6495 153.302 15.0044 153.547 14.2443C152.904 14.6271 152.199 14.8953 151.464 15.0404C150.97 14.5122 150.316 14.1619 149.603 14.044C148.889 13.926 148.157 14.047 147.52 14.3882C146.882 14.7294 146.375 15.2716 146.078 15.9306C145.78 16.5895 145.709 17.3283 145.874 18.0321C144.57 17.9667 143.294 17.6278 142.129 17.0372C140.964 16.4467 139.937 15.6178 139.113 14.6043C138.821 15.1051 138.668 15.6744 138.669 16.2539C138.669 17.3913 139.248 18.3961 140.128 18.9843C139.607 18.968 139.098 18.8273 138.642 18.5741V18.6149C138.643 19.3724 138.905 20.1065 139.384 20.6928C139.864 21.2791 140.532 21.6814 141.274 21.8317C140.791 21.9627 140.284 21.982 139.792 21.8881C140.001 22.5402 140.409 23.1104 140.958 23.519C141.508 23.9276 142.171 24.1541 142.856 24.1668C142.176 24.7012 141.397 25.0963 140.563 25.3294C139.73 25.5625 138.859 25.6291 138 25.5253C139.5 26.4897 141.245 27.0017 143.028 27C149.062 27 152.362 22.0011 152.362 17.6658C152.362 17.5246 152.358 17.3818 152.352 17.2422C152.994 16.778 153.549 16.2029 153.989 15.544L153.988 15.5432Z" fill="#F16214"/>
+                            <circle class="instagram-icon" cx="83" cy="20" r="20" fill="#F16214" fill-opacity="0.15"/>
+                            <path d="M83.5 18.55C82.9828 18.55 82.4868 18.7554 82.1211 19.1211C81.7554 19.4868 81.55 19.9828 81.55 20.5C81.55 21.0172 81.7554 21.5132 82.1211 21.8789C82.4868 22.2446 82.9828 22.45 83.5 22.45C84.0172 22.45 84.5132 22.2446 84.8789 21.8789C85.2446 21.5132 85.45 21.0172 85.45 20.5C85.45 19.9828 85.2446 19.4868 84.8789 19.1211C84.5132 18.7554 84.0172 18.55 83.5 18.55ZM83.5 17.25C84.362 17.25 85.1886 17.5924 85.7981 18.2019C86.4076 18.8114 86.75 19.638 86.75 20.5C86.75 21.362 86.4076 22.1886 85.7981 22.7981C85.1886 23.4076 84.362 23.75 83.5 23.75C82.638 23.75 81.8114 23.4076 81.2019 22.7981C80.5924 22.1886 80.25 21.362 80.25 20.5C80.25 19.638 80.5924 18.8114 81.2019 18.2019C81.8114 17.5924 82.638 17.25 83.5 17.25ZM87.725 17.0875C87.725 17.303 87.6394 17.5097 87.487 17.662C87.3347 17.8144 87.128 17.9 86.9125 17.9C86.697 17.9 86.4903 17.8144 86.338 17.662C86.1856 17.5097 86.1 17.303 86.1 17.0875C86.1 16.872 86.1856 16.6653 86.338 16.513C86.4903 16.3606 86.697 16.275 86.9125 16.275C87.128 16.275 87.3347 16.3606 87.487 16.513C87.6394 16.6653 87.725 16.872 87.725 17.0875ZM83.5 15.3C81.8919 15.3 81.6293 15.3046 80.8812 15.3377C80.3716 15.3618 80.0296 15.43 79.7124 15.5535C79.4303 15.6627 79.2269 15.7933 79.0104 16.0104C78.807 16.207 78.6506 16.447 78.5528 16.7124C78.4293 17.0309 78.3611 17.3722 78.3377 17.8812C78.3039 18.5988 78.3 18.8496 78.3 20.5C78.3 22.1081 78.3046 22.3707 78.3377 23.1188C78.3618 23.6278 78.43 23.9703 78.5528 24.2869C78.6633 24.5696 78.7933 24.7731 79.0092 24.9889C79.2282 25.2073 79.4316 25.3379 79.7111 25.4458C80.0322 25.57 80.3742 25.6389 80.8812 25.6623C81.5988 25.6961 81.8496 25.7 83.5 25.7C85.1081 25.7 85.3707 25.6954 86.1188 25.6623C86.6271 25.6382 86.9697 25.57 87.2869 25.4471C87.5683 25.3373 87.7731 25.2066 87.9889 24.9908C88.2079 24.7718 88.3386 24.5683 88.4465 24.2888C88.57 23.9684 88.6389 23.6258 88.6623 23.1188C88.6961 22.4012 88.7 22.1503 88.7 20.5C88.7 18.8919 88.6954 18.6293 88.6623 17.8812C88.6382 17.3728 88.57 17.0296 88.4465 16.7124C88.3485 16.4473 88.1924 16.2074 87.9895 16.0104C87.7931 15.8069 87.5531 15.6505 87.2875 15.5528C86.969 15.4293 86.6271 15.3611 86.1188 15.3377C85.4012 15.3039 85.1503 15.3 83.5 15.3ZM83.5 14C85.266 14 85.4864 14.0065 86.1793 14.039C86.8715 14.0715 87.3428 14.1801 87.7575 14.3413C88.1865 14.5064 88.5479 14.7299 88.9093 15.0907C89.2398 15.4156 89.4956 15.8087 89.6587 16.2425C89.8193 16.6565 89.9285 17.1284 89.961 17.8207C89.9915 18.5136 90 18.7339 90 20.5C90 22.266 89.9935 22.4864 89.961 23.1793C89.9285 23.8715 89.8193 24.3428 89.6587 24.7575C89.496 25.1916 89.2402 25.5847 88.9093 25.9093C88.5843 26.2397 88.1912 26.4954 87.7575 26.6587C87.3434 26.8193 86.8715 26.9285 86.1793 26.961C85.4864 26.9915 85.266 27 83.5 27C81.7339 27 81.5136 26.9935 80.8207 26.961C80.1284 26.9285 79.6572 26.8193 79.2425 26.6587C78.8085 26.4959 78.4154 26.2401 78.0907 25.9093C77.7601 25.5844 77.5044 25.1914 77.3413 24.7575C77.1801 24.3434 77.0715 23.8715 77.039 23.1793C77.0084 22.4864 77 22.266 77 20.5C77 18.7339 77.0065 18.5136 77.039 17.8207C77.0715 17.1278 77.1801 16.6572 77.3413 16.2425C77.5039 15.8084 77.7597 15.4153 78.0907 15.0907C78.4155 14.76 78.8086 14.5042 79.2425 14.3413C79.6572 14.1801 80.1278 14.0715 80.8207 14.039C81.5136 14.0084 81.7339 14 83.5 14Z" fill="#F16214"/>
+                            <circle class="facebook-icon" cx="20" cy="20" r="20" fill="#F16214" fill-opacity="0.15"/>
+                            <path d="M21.55 21.475H23.175L23.825 18.875H21.55V17.575C21.55 16.9055 21.55 16.275 22.85 16.275H23.825V14.091C23.6131 14.0631 22.8129 14 21.9679 14C20.2032 14 18.95 15.077 18.95 17.055V18.875H17V21.475H18.95V27H21.55V21.475Z" fill="#F16214"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="list2">
+                    <h4>Timetable</h4>
+                    <p>Sa - We: 09:00am - 10:00pm<br>Thursday: 09:00am - 05:00pm<br> Friday: Closed</p>
+                </div>
+                <div class="list3">
+                    <h4>User Link</h4>
+                    <div><button>About Us</button><br>
+                        <button>Contact Us</button><br>
+                        <button>Delivery</button> <br>
+                        <button>Payment & Tax</button><br>
+                        <button>Terms of Services</button></div>
+                </div>
+                <div class="list4">
+                    <h4>Contact Us</h4>
+                    <p>543 Country Club Ave,<br>
+                        NC 27587, London, UK<br>
+                        +1259 6541120</p>
+                        <div class="subscription-buttom-page-7">
+                            <input placeholder="Enter your email...">
+                            <button>></button>
+                        </div>
+                </div>
+            </div>
+            <img class="line-5" src="img/Line 5.png" alt="">
+            <p class="end"> Copyrights© 2021 Food Bill All rights reserved</p>
+        </div>
+        <div>
+            <p class="something">Something</p>
+        </div>
+    </main>
+</body>
+</html>
